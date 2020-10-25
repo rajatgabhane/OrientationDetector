@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_blue_bright</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_bright</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="text_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:weightSum">1</item>
+    </style>
+
+    <style name="text_label">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.3</item>
+        <item name="android:paddingStart">@dimen/text_padding</item>
+        <item name="android:paddingEnd">@dimen/text_padding</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_value">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.7</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingStart">@dimen/text_padding</item>
+        <item name="android:paddingEnd">@dimen/text_padding</item>
+        <item name="android:background">@android:color/holo_blue_bright</item>
+    </style>
+
+</resources>

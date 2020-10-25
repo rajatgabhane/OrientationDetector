@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/text_container">
+
+        <TextView
+            android:id="@+id/azimuth_label"
+            style="@style/text_label"
+            android:text="@string/azimuth" />
+
+        <TextView
+            android:id="@+id/azimuth_value"
+            style="@style/text_value" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/text_container">
+
+        <TextView
+            android:id="@+id/pitch_label"
+            style="@style/text_label"
+            android:text="@string/pitch" />
+
+        <TextView
+            android:id="@+id/pitch_value"
+            style="@style/text_value" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/text_container">
+
+        <TextView
+            android:id="@+id/roll_label"
+            style="@style/text_label"
+            android:text="@string/roll" />
+
+        <TextView
+            android:id="@+id/roll_value"
+            style="@style/text_value" />
+    </LinearLayout>
+
+</LinearLayout>
